@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regtestsuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Testleaf(failed)">
+    <classes>
+      <class name="testcase.EditLead">
+        <methods>
+          <include name="runEditLead"/>
+        </methods>
+      </class> <!-- testcase.EditLead -->
+    </classes>
+  </test> <!-- Testleaf(failed) -->
+</suite> <!-- Failed suite [Regtestsuite] -->
